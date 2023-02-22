@@ -1,0 +1,1 @@
+import { IsString, IsUUID } from 'class-validator';import { EAppRoles } from './roles.type';export class GenerateTokenDTO {  @IsUUID()  id: string;  @IsString()  role: EAppRoles;  @IsString()  email?: string;}

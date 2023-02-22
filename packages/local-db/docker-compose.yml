@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  database-codia:
+    image: 'postgres'
+    environment:
+      POSTGRES_USER: codia_user
+      POSTGRES_PASSWORD: magical_password
+      POSTGRES_DB: codia_database
+    ports:
+      - '5437:5432'
+    volumes:
+      - database-data-codia:/var/lib/postgresql/data/
+volumes:
+  database-data-codia:
