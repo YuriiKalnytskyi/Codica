@@ -10,7 +10,7 @@
 ## Installation
 Clone this repository and install node modules
 ```sh
-$ git clone 
+$ git clone https://github.com/YuriiKalnytskyi/Codica.git
 $ cd Codica
 $ npm install
 ```
@@ -21,9 +21,7 @@ $ cd packages/backend
 $ npm install
 ```
 
-## to run the entire project, you need to return to the main folder and run the script
-
-to run the entire project, you need to return to the main folder and run the script
+## To run the entire project, you need to return to the main folder and run the script
 
 ### `npm run start:local`
 
