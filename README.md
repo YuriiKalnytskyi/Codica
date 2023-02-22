@@ -27,6 +27,14 @@ $ npm install
 
 Docker must be running or sudo must be added in packages/local-db in package.json
 
+```sh
+$ -for convenience I add  codia.postman_collection.json
+$ -or view http://localhost:4200/api
+```
+
+
+
+
 In the project directory, you can run:
 ### `npm run format:check`
 
