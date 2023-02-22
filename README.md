@@ -1,4 +1,4 @@
-# Test task Codica
+# Task Codica
 
 ## Prerequisites
 - node.js
