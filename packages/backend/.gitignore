@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.idea
+
+.env.dev
+.env.prod

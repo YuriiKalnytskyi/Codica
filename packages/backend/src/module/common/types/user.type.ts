@@ -1,0 +1,1 @@
+export interface IUser {  discordId: string;  discriminator: string;  avatar: string;  username: string;}
